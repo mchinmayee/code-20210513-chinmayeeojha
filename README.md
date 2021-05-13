@@ -1,8 +1,4 @@
-## This program has taken a constant input of body parameters.
-
-## But in real time scenario, the data could be fetched using an API call or could be input as a file
-
-## in either case the JSON format data will be converted into a dictionary
+## There are two solutions one using core python features and the other using pandas & numpy libraries
 
 ## Unit Testing
 

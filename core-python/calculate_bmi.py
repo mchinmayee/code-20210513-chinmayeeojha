@@ -41,7 +41,7 @@ def calculate_bmi_per_person(person):
     decimal_places = 2
 
     pWeight = person["WeightKg"]
-    pHeight = person["HeightCm"]/100.0
+    pHeight = (person["HeightCm"]/100.0) ** 2
     # pGender = person["Gender"]
     bmi_value = round(pWeight / pHeight, decimal_places)
     health_category = determine_health_category(bmi_value)
